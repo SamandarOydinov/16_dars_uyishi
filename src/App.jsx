@@ -6,7 +6,7 @@ import { MainPage, CounterPage, HomePage, ProductsPage, UsersPage } from "./page
 
 function App() {
   return (
-    <Suspense fallback={<h1>Page is loading</h1>}>
+    <Suspense fallback={<h1>Page is loading...</h1>}>
       <Routes>
         <Route index element={<MainPage />} />
 

@@ -3,7 +3,7 @@ import React from "react"
 function Counter() {
     return (
      <div>
-        <h1>Counter</h1>
+        <h1> My Counter !</h1>
      </div>
     )
   }
